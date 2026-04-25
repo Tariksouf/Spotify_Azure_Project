@@ -1,0 +1,15 @@
+{
+	"name": "ST-dfAzureProject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "08b99d60-be75-46dd-8cd3-d51ca01d1690",
+		"tenantId": "56d73e1e-b40b-492f-b9c4-59acaa7ec4e7"
+	}
+}
